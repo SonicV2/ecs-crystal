@@ -1,10 +1,6 @@
 version: 0.2
 
-env:
-  parameter-store:
-    DOCKER_HUB_USERNAME: "yiquan91"
-    DOCKER_HUB_PASSWORD: "Gamespot@1"
-    # store with: aws ssm put-parameter --name "docker_hub_username" --value "<username value>" --type String
+
 phases:
   install:
     commands:
